@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Create your College Charter account">
+  <title>Sign Up - College Charter</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Skip to main content link for keyboard navigation -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+<nav>
+  <div class="navbar-container">
+    <a href="index.html" class="logo">College Charter</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="features.html">Features</a></li>
+      <li><a href="how-it-works.html">How It Works</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="signin.html" class="btn-signin">Sign In</a>
+      <a href="signup.html" class="btn-signup">Sign Up</a>
+    </div>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Start Your College Success Journey</h1>
+    <p>Join thousands of students achieving their college dreams</p>
+  </div>
+</section>
+
+<!-- AUTH CONTAINER -->
+<section class="container" id="main-content" style="padding: 3rem 1rem;">
+  <div class="auth-container">
+    <!-- SIGN UP FORM -->
+    <div class="auth-form-side">
+      <h2 style="margin-bottom: 2rem;">Create Account</h2>
+      
+      <form id="signup-form">
+        <div class="form-group">
+          <label for="signup-name">Full Name</label>
+          <input type="text" id="signup-name" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="signup-email">Email Address</label>
+          <input type="email" id="signup-email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="signup-password">Password</label>
+          <input type="password" id="signup-password" name="password" placeholder="Min 6 characters" required>
+        </div>
+
+        <div class="form-group">
+          <label for="signup-confirm">Confirm Password</label>
+          <input type="password" id="signup-confirm" name="confirm" required>
+        </div>
+
+        <div style="margin-bottom: 1.5rem;">
+          <label style="display: flex; align-items: flex-start;">
+            <input type="checkbox" id="terms-checkbox" name="terms" style="width: auto; margin-right: 0.5rem; margin-top: 0.25rem;" required>
+            <span style="margin: 0;">I agree to the <a href="privacy.html" style="color: var(--secondary);">Terms of Service</a> and <a href="privacy.html" style="color: var(--secondary);">Privacy Policy</a></span>
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%; margin-bottom: 1.5rem;">Create Account</button>
+      </form>
+
+      <!-- SOCIAL LOGIN -->
+      <div style="margin-bottom: 1.5rem;">
+        <p style="text-align: center; color: var(--text-gray); margin-bottom: 1rem;">Or sign up with</p>
+        <div class="social-login">
+          <button class="social-btn" data-provider="google" aria-label="Sign up with Google">
+            <span style="font-weight: 700;">G</span> Google
+          </button>
+          <button class="social-btn" data-provider="apple" aria-label="Sign up with Apple">
+            <span style="font-weight: 700;">🍎</span> Apple
+          </button>
+        </div>
+      </div>
+
+      <!-- AUTH LINK -->
+      <div class="auth-link">
+        <p>Already have an account? <a href="signin.html">Sign in here</a></p>
+      </div>
+    </div>
+
+    <!-- BENEFITS SECTION -->
+    <div class="auth-benefits">
+      <h3>Why Join College Charter?</h3>
+      <ul class="benefit-list">
+        <li>
+          <span>Get instant feedback on your college essays</span>
+        </li>
+        <li>
+          <span>Discover colleges that match your profile</span>
+        </li>
+        <li>
+          <span>Access premium study resources and practice tests</span>
+        </li>
+        <li>
+          <span>Connect with experienced college advisors</span>
+        </li>
+        <li>
+          <span>Manage all your applications in one place</span>
+        </li>
+        <li>
+          <span>Get personalized college recommendations</span>
+        </li>
+        <li>
+          <span>95% of our users get into their chosen colleges</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- STATS SECTION -->
+<section style="background: var(--light-bg); padding: 3rem 1rem;">
+  <div class="container">
+    <div class="grid grid-3">
+      <div class="card text-center">
+        <div style="font-size: 2rem; margin-bottom: 1rem;">📚</div>
+        <div style="font-size: 2rem; font-weight: 700; color: var(--secondary); margin-bottom: 0.5rem;">50K+</div>
+        <p style="margin: 0;">Active Students</p>
+      </div>
+      <div class="card text-center">
+        <div style="font-size: 2rem; margin-bottom: 1rem;">🏆</div>
+        <div style="font-size: 2rem; font-weight: 700; color: var(--secondary); margin-bottom: 0.5rem;">95%</div>
+        <p style="margin: 0;">Acceptance Rate</p>
+      </div>
+      <div class="card text-center">
+        <div style="font-size: 2rem; margin-bottom: 1rem;">🎓</div>
+        <div style="font-size: 2rem; font-weight: 700; color: var(--secondary); margin-bottom: 0.5rem;">500+</div>
+        <p style="margin: 0;">Partner Universities</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIAL SECTION -->
+<section class="container margin-top">
+  <div class="section-title">
+    <h2>What Students Are Saying</h2>
+  </div>
+
+  <div class="testimonial-grid">
+    <div class="testimonial">
+      <div class="testimonial-text">"College Charter helped me improve my essays and get into my dream school. Highly recommend!"</div>
+      <div class="testimonial-author">
+        <div class="author-avatar">MC</div>
+        <div class="author-info">
+          <h4>Maya Chen</h4>
+          <p>Yale University</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial">
+      <div class="testimonial-text">"The mentorship program was life-changing. My advisor helped me with the entire application process."</div>
+      <div class="testimonial-author">
+        <div class="author-avatar">KJ</div>
+        <div class="author-info">
+          <h4>Kevin Johnson</h4>
+          <p>Stanford University</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial">
+      <div class="testimonial-text">"I got into Columbia because of the essay feedback I received. Best investment ever!"</div>
+      <div class="testimonial-author">
+        <div class="author-avatar">LW</div>
+        <div class="author-info">
+          <h4>Lauren Wei</h4>
+          <p>Columbia University</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA SECTION -->
+<section class="cta-section container margin-top">
+  <h2>Ready to Transform Your College Journey?</h2>
+  <p>Join thousands of successful students. Start your free trial today.</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-container">
+    <div class="footer-grid">
+      <div class="footer-section">
+        <h4>College Charter</h4>
+        <p>Your trusted partner in college preparation and success.</p>
+        <div class="social-links">
+          <a href="#" title="Facebook" aria-label="Facebook">f</a>
+          <a href="#" title="Twitter" aria-label="Twitter">𝕏</a>
+          <a href="#" title="LinkedIn" aria-label="LinkedIn">in</a>
+          <a href="#" title="Instagram" aria-label="Instagram">📷</a>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="essay-check.html">Essay Check</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="how-it-works.html">How It Works</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="cookies.html">Cookie Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Security</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2024 College Charter. All rights reserved.</p>
+      <p>Making college success accessible to everyone.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

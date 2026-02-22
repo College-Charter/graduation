@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sign in to College Charter">
+  <title>Sign In - College Charter</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Skip to main content link for keyboard navigation -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+<nav>
+  <div class="navbar-container">
+    <a href="index.html" class="logo">College Charter</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="features.html">Features</a></li>
+      <li><a href="how-it-works.html">How It Works</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="signin.html" class="btn-signin">Sign In</a>
+      <a href="signup.html" class="btn-signup">Sign Up</a>
+    </div>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Welcome Back</h1>
+    <p>Sign in to access your College Charter account</p>
+  </div>
+</section>
+
+<!-- AUTH CONTAINER -->
+<section class="container" id="main-content" style="padding: 3rem 1rem;">
+  <div class="auth-container">
+    <!-- SIGN IN FORM -->
+    <div class="auth-form-side">
+      <h2 style="margin-bottom: 2rem;">Sign In</h2>
+      
+      <form id="signin-form">
+        <div class="form-group">
+          <label for="signin-email">Email Address</label>
+          <input type="email" id="signin-email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="signin-password">Password</label>
+          <input type="password" id="signin-password" name="password" required>
+        </div>
+
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+          <label style="display: flex; align-items: center; margin: 0;">
+            <input type="checkbox" id="remember-checkbox" name="remember" style="width: auto; margin-right: 0.5rem;">
+            <span style="margin: 0;">Remember me</span>
+          </label>
+          <a href="#" style="color: var(--secondary); text-decoration: none;">Forgot password?</a>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%; margin-bottom: 1.5rem;">Sign In</button>
+      </form>
+
+      <!-- SOCIAL LOGIN -->
+      <div style="margin-bottom: 1.5rem;">
+        <p style="text-align: center; color: var(--text-gray); margin-bottom: 1rem;">Or sign in with</p>
+        <div class="social-login">
+          <button class="social-btn" data-provider="google" aria-label="Sign in with Google">
+            <span style="font-weight: 700;">G</span> Google
+          </button>
+          <button class="social-btn" data-provider="apple" aria-label="Sign in with Apple">
+            <span style="font-weight: 700;">🍎</span> Apple
+          </button>
+        </div>
+      </div>
+
+      <!-- AUTH LINK -->
+      <div class="auth-link">
+        <p>New to College Charter? <a href="signup.html">Create an account</a></p>
+      </div>
+    </div>
+
+    <!-- BENEFITS SECTION -->
+    <div class="auth-benefits">
+      <h3>Welcome to Your College Success Platform</h3>
+      <ul class="benefit-list">
+        <li>
+          <span>Check unlimited essays and get instant feedback</span>
+        </li>
+        <li>
+          <span>Find colleges that match your interests and goals</span>
+        </li>
+        <li>
+          <span>Access thousands of study materials and practice tests</span>
+        </li>
+        <li>
+          <span>Connect with expert mentors and college advisors</span>
+        </li>
+        <li>
+          <span>Track your college applications in one place</span>
+        </li>
+        <li>
+          <span>Get personalized recommendations and guidance</span>
+        </li>
+        <li>
+          <span>Join a community of successful students</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- CTA SECTION -->
+<section class="cta-section container margin-top">
+  <h2>Having trouble signing in?</h2>
+  <p>Contact our support team for help</p>
+  <a href="contact.html" class="btn btn-accent">Get Help</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-container">
+    <div class="footer-grid">
+      <div class="footer-section">
+        <h4>College Charter</h4>
+        <p>Your trusted partner in college preparation and success.</p>
+        <div class="social-links">
+          <a href="#" title="Facebook" aria-label="Facebook">f</a>
+          <a href="#" title="Twitter" aria-label="Twitter">𝕏</a>
+          <a href="#" title="LinkedIn" aria-label="LinkedIn">in</a>
+          <a href="#" title="Instagram" aria-label="Instagram">📷</a>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="essay-check.html">Essay Check</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="how-it-works.html">How It Works</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="cookies.html">Cookie Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Security</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2024 College Charter. All rights reserved.</p>
+      <p>Making college success accessible to everyone.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
