@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Affordable pricing plans for College Charter">
   <title>Pricing - College Charter</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <!-- Skip to main content link for keyboard navigation -->
@@ -42,87 +42,69 @@
   </div>
 </section>
 
-<!-- PRICING TOGGLE -->
+<!-- PRICING CARDS -->
 <section class="container" id="main-content">
-  <div class="pricing-toggle">
-    <div class="toggle-switch">
-      <label>Monthly</label>
-      <button class="toggle-slider" id="billing-cycle"></button>
-      <label>Yearly (Save 20%)</label>
-    </div>
-  </div>
-
-  <!-- PRICING CARDS -->
   <div class="pricing-grid">
-    <!-- BASIC PLAN -->
+    <!-- STARTER PLAN -->
     <div class="pricing-card">
-      <h3>Basic</h3>
+      <h3>Starter Plan</h3>
       <div class="price">
-        <span data-monthly-price="$9" data-yearly-price="$85" data-billing-period="/month">$9</span>
-        <span data-billing-period="/month">/month</span>
+        <span style="font-size: 2rem; font-weight: bold;">$14.99</span>
       </div>
-      <p style="color: var(--text-gray); margin: 1rem 0;">Perfect for getting started</p>
+      <p style="color: var(--text-gray); margin: 1rem 0;">3 months access</p>
       
       <ul class="pricing-features">
-        <li>3 Essay Checks/month</li>
-        <li>Plagiarism Detection</li>
-        <li>College Database Access</li>
-        <li>Basic Study Materials</li>
-        <li>Mobile App Access</li>
-        <li>Email Support</li>
+        <li>Explore the CollegeCharter app</li>
+        <li>AI-powered college essay grading tools</li>
+        <li>Real-time grades and feedback</li>
+        <li>Access to study materials</li>
+        <li>Mobile app access</li>
+        <li>Email support</li>
       </ul>
 
       <a href="checkout.html" class="btn btn-outline" style="width: 100%;">Get Started</a>
-      <div data-savings style="text-align: center; margin-top: 1rem; color: var(--secondary); font-weight: 600; display: none;">Save $9/year</div>
     </div>
 
-    <!-- PRO PLAN (FEATURED) -->
+    <!-- GUIDED PLAN (FEATURED) -->
     <div class="pricing-card featured">
-      <h3>Pro</h3>
+      <h3>Guided Plan</h3>
       <div class="price">
-        <span data-monthly-price="$29" data-yearly-price="$278" data-billing-period="/month">$29</span>
-        <span data-billing-period="/month">/month</span>
+        <span style="font-size: 2rem; font-weight: bold;">$39.99</span>
       </div>
-      <p style="color: var(--text-gray); margin: 1rem 0;">Most popular for serious students</p>
+      <p style="color: var(--text-gray); margin: 1rem 0;">3 months access</p>
       
       <ul class="pricing-features">
-        <li>Unlimited Essay Checks</li>
-        <li>Advanced Plagiarism Detection</li>
-        <li>Priority College Matching</li>
-        <li>Complete Study Materials</li>
-        <li>Mobile App + Desktop</li>
-        <li>1 Free Mentor Session/month</li>
-        <li>24/7 Priority Support</li>
-        <li>Application Timeline Manager</li>
+        <li>Explore and test the CollegeCharter app</li>
+        <li>Essay feedback and analytics</li>
+        <li>Scholarship discovery tools</li>
+        <li>College cost estimation</li>
+        <li>Complete study materials</li>
+        <li>Mobile app + web access</li>
+        <li>Priority support</li>
       </ul>
 
       <a href="checkout.html" class="btn btn-primary" style="width: 100%;">Get Started</a>
-      <div data-savings style="text-align: center; margin-top: 1rem; color: var(--secondary); font-weight: 600; display: none;">Save $76/year</div>
     </div>
 
-    <!-- PREMIUM PLAN -->
+    <!-- GRAND PLAN -->
     <div class="pricing-card">
-      <h3>Premium</h3>
+      <h3>Grand Plan</h3>
       <div class="price">
-        <span data-monthly-price="$79" data-yearly-price="$757" data-billing-period="/month">$79</span>
-        <span data-billing-period="/month">/month</span>
+        <span style="font-size: 2rem; font-weight: bold;">$64.99</span>
       </div>
-      <p style="color: var(--text-gray); margin: 1rem 0;">The complete package</p>
+      <p style="color: var(--text-gray); margin: 1rem 0;">5 months access</p>
       
       <ul class="pricing-features">
-        <li>Unlimited Everything</li>
-        <li>Personal College Advisor</li>
-        <li>4 Mentor Sessions/month</li>
-        <li>Essay Writing Coaching</li>
-        <li>Interview Prep</li>
-        <li>Financial Aid Assistance</li>
-        <li>24/7 VIP Support</li>
-        <li>Exclusive Webinars</li>
-        <li>Guaranteed Response in 24hrs</li>
+        <li>Fully explore and test the app</li>
+        <li>Private AI mentor access</li>
+        <li>Advanced timeline planning</li>
+        <li>Organizational tools</li>
+        <li>Custom-developed AI system</li>
+        <li>Enhanced online recruitment options</li>
+        <li>24/7 VIP support</li>
       </ul>
 
       <a href="checkout.html" class="btn btn-outline" style="width: 100%;">Get Started</a>
-      <div data-savings style="text-align: center; margin-top: 1rem; color: var(--secondary); font-weight: 600; display: none;">Save $191/year</div>
     </div>
   </div>
 </section>
@@ -139,20 +121,26 @@
       <thead>
         <tr>
           <th class="feature-name">Feature</th>
-          <th>Basic</th>
-          <th>Pro</th>
-          <th>Premium</th>
+          <th>Starter</th>
+          <th>Guided</th>
+          <th>Grand</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td class="feature-name">Essay Checks per Month</td>
-          <td>3</td>
-          <td>Unlimited</td>
-          <td>Unlimited</td>
+          <td class="feature-name">Duration</td>
+          <td>3 months</td>
+          <td>3 months</td>
+          <td>5 months</td>
         </tr>
         <tr>
-          <td class="feature-name">Plagiarism Detection</td>
+          <td class="feature-name">Price</td>
+          <td>$14.99</td>
+          <td>$39.99</td>
+          <td>$64.99</td>
+        </tr>
+        <tr>
+          <td class="feature-name">Essay Grading & Feedback</td>
           <td>✓</td>
           <td>✓ Advanced</td>
           <td>✓ Advanced</td>
@@ -160,44 +148,32 @@
         <tr>
           <td class="feature-name">College Database</td>
           <td>✓</td>
-          <td>✓ Full Access</td>
-          <td>✓ Full Access</td>
+          <td>✓</td>
+          <td>✓</td>
+        </tr>
+        <tr>
+          <td class="feature-name">Scholarship Discovery</td>
+          <td>-</td>
+          <td>✓</td>
+          <td>✓</td>
+        </tr>
+        <tr>
+          <td class="feature-name">AI Mentor Access</td>
+          <td>-</td>
+          <td>-</td>
+          <td>✓ Private</td>
+        </tr>
+        <tr>
+          <td class="feature-name">Timeline Planning</td>
+          <td>-</td>
+          <td>-</td>
+          <td>✓ Advanced</td>
         </tr>
         <tr>
           <td class="feature-name">Study Materials</td>
-          <td>Basic</td>
-          <td>Complete</td>
-          <td>Complete</td>
-        </tr>
-        <tr>
-          <td class="feature-name">Mentor Sessions</td>
-          <td>-</td>
-          <td>1/month</td>
-          <td>4/month</td>
-        </tr>
-        <tr>
-          <td class="feature-name">Personal Advisor</td>
-          <td>-</td>
-          <td>-</td>
           <td>✓</td>
-        </tr>
-        <tr>
-          <td class="feature-name">Application Timeline</td>
-          <td>-</td>
-          <td>✓</td>
-          <td>✓</td>
-        </tr>
-        <tr>
-          <td class="feature-name">Interview Prep</td>
-          <td>-</td>
-          <td>-</td>
-          <td>✓</td>
-        </tr>
-        <tr>
-          <td class="feature-name">Financial Aid Help</td>
-          <td>-</td>
-          <td>-</td>
-          <td>✓</td>
+          <td>✓ Complete</td>
+          <td>✓ Complete</td>
         </tr>
         <tr>
           <td class="feature-name">Mobile App</td>
@@ -208,7 +184,7 @@
         <tr>
           <td class="feature-name">Support</td>
           <td>Email</td>
-          <td>24/7 Priority</td>
+          <td>Priority</td>
           <td>24/7 VIP</td>
         </tr>
       </tbody>
@@ -226,11 +202,11 @@
   <div style="max-width: 800px; margin: 2rem auto 0;">
     <div class="faq-item active">
       <div class="faq-question">
-        <span>Can I change my plan anytime?</span>
+        <span>Is this a one-time payment?</span>
         <div class="faq-toggle"></div>
       </div>
       <div class="faq-answer">
-        <p>Yes! You can upgrade or downgrade your plan at any time. Changes take effect at the next billing cycle.</p>
+        <p>Yes! All our packages are one-time payments. You pay once and get access for the duration of your chosen plan.</p>
       </div>
     </div>
 
@@ -364,8 +340,6 @@
   </div>
 </footer>
 
-<script src="main.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
-
-
